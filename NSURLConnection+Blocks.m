@@ -1,4 +1,4 @@
-#import "NSURLConnection-Blocks.h"
+#import "NSURLConnection+Blocks.h"
 
 @implementation NSURLConnection (Blocks)
 

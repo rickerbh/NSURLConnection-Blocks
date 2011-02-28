@@ -1,5 +1,5 @@
 //
-//  NSURLConnection-block.h
+//  NSURLConnection+Blocks.h
 //
 //  Created by Kevin Lohman on 9/12/10.
 //  Copyright 2010 Logic High Software. All rights reserved.
