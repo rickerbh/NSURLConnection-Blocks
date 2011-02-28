@@ -12,7 +12,7 @@
 
 #pragma mark Class API Extensions
 + (void)asyncRequest:(NSURLRequest *)request 
-						 success:(void(^)(NSData *,NSURLResponse *))successBlock_ 
-						 failure:(void(^)(NSData *,NSError *))failureBlock_;
+						 success:(void(^)(NSData *, NSURLResponse *))successBlock_ 
+						 failure:(void(^)(NSData *, NSError *))failureBlock_;
 
 @end
