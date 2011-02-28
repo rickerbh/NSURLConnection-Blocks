@@ -1,6 +1,6 @@
-#import "NSURLConnection-block.h"
+#import "NSURLConnection-Blocks.h"
 
-@implementation NSURLConnection (block)
+@implementation NSURLConnection (Blocks)
 
 #pragma mark API
 + (void)asyncRequest:(NSURLRequest *)request success:(void(^)(NSData *,NSURLResponse *))successBlock_ failure:(void(^)(NSData *,NSError *))failureBlock_
