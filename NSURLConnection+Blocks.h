@@ -10,6 +10,9 @@
 
 @interface NSURLConnection (Blocks)
 
+typedef void(^RequestSuccessBlock) (NSData *data, NSURLResponse *response);
+typedef void(^RequestFailureBlock) (NSData *date, NSError *error);
+
 #pragma mark Class API Extensions
 + (void)asyncRequest:(NSURLRequest *)request 
 						 success:(void(^)(NSData *, NSURLResponse *))successBlock_ 
